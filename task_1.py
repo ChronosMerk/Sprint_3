@@ -92,6 +92,8 @@ osrc.add_item_to_cheque('печенье')
 osrc.add_item_to_cheque('молоко')
 osrc.add_item_to_cheque('кефир')
 
+print(f'Добавленные товары в чек: {osrc.name_items}')
+print(f'Все товаров в чеке: {osrc.number_items}')
 print(f'Сумма: {osrc.check_amount()}')
 print(f'20% НДС: {osrc.twenty_percent_tax_calculation()}')
 print(f'10% НДС: {osrc.ten_percent_tax_calculation()}')
